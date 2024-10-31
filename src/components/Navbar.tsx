@@ -38,7 +38,7 @@ export default function Navbar() {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="#" className="text-sm font-semibold leading-6 text-gray-900 px-6">
             <button><img alt="" src={person} className="h-8 w-auto"/></button>
             </a>
           </div>
