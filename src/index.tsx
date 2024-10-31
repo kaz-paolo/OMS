@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Example from './components/Example';
+import Home from './components/Home';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 import Navbar from './components/Navbar';
@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Navbar />
-    <Example />
+    <Home />
   </React.StrictMode>
 );
 
