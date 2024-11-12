@@ -4,15 +4,18 @@ import Home from './components/Home';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 import Navbar from './components/Navbar';
+import { ThemeProvider } from "@material-tailwind/react";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Navbar />
-    <Home />
-  </React.StrictMode>
+    <ThemeProvider>
+      <Navbar />
+      <Home />
+    </ThemeProvider>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

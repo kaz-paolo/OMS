@@ -2,6 +2,11 @@
 
 import logo from './logo.svg'
 import dropdown from './dropdown.svg'
+import home from './home.svg'
+import settings from './settings.svg'
+import calendar from './calendar_today.svg'
+import features from './feature_search.svg'
+import Dropdown from './Dropdown'
 
 export default function Navbar() {
   return (
@@ -12,7 +17,7 @@ export default function Navbar() {
               <button><img alt="" src={logo}className="h-8 w-auto"/></button>
           </div>
           <div className="lg:flex lg:justify-end">
-            <button><img alt="" src={dropdown} className="h-8 w-auto"/></button>
+            <Dropdown />
           </div>
         </nav>
       </header>
