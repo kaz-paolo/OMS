@@ -1,20 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Home from './components/Home';
+import Home from './components/Homepage';
+import FAQ from './components/FAQ';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
 import Navbar from './components/Navbar';
-import { ThemeProvider } from "@material-tailwind/react";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <ThemeProvider>
       <Navbar />
       <Home />
-    </ThemeProvider>
+      <FAQ />
     </React.StrictMode>
 );
 

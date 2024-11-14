@@ -1,11 +1,6 @@
 'use client'
 
 import logo from './logo.svg'
-import dropdown from './dropdown.svg'
-import home from './home.svg'
-import settings from './settings.svg'
-import calendar from './calendar_today.svg'
-import features from './feature_search.svg'
 import Dropdown from './Dropdown'
 
 export default function Navbar() {
