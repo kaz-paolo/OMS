@@ -63,7 +63,6 @@ import arrow from './arrow.svg'
                 </div>
               </a>
             </div>
-
           </div>
         </div>
       </div>
