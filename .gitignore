@@ -65,3 +65,6 @@ yarn-error.log*
 next-env.d.ts
 .next
 .DS_Store
+*.gz
+*.gz.old
+*.log
